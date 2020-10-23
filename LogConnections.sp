@@ -90,7 +90,7 @@ public int Menu_Handler(Menu menu, MenuAction action, int param1, int param2)
         Menu infoMenu = new Menu(Menu_Handler2);
         infoMenu.SetTitle("%s", szTitle);
 
-        infoMenu.AddItem("Connect", "Connect to server...");
+        infoMenu.AddItem("Connect", "Connect to that server...");
 
         infoMenu.ExitButton = true;
         infoMenu.Display(param1, 0);
